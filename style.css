@@ -146,6 +146,7 @@ section.especialidades {
   /* margin: 15px 0; */
 }
 
+
 /*ESTILO DO SOBRE*/
 
 .sobre {
@@ -153,13 +154,15 @@ section.especialidades {
   grid-template-columns:1fr 2fr;
   flex-wrap: wrap;
   align-items: center;
-  gap: 20px;
+  gap: 180px;
   padding: 80px 4%;
 }
-.sobre .img-sobre img { 
+.sobre .img-sobre video { 
   width: 100%;
   max-width: 400px;
   border-radius: 15px;
+  object-fit: cover;
+  height: auto;
 }
 
 section .txt-sobre {
